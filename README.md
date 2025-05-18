@@ -17,7 +17,6 @@
 - **Database Creation**: Created a database named `library_db`.
 - **Table Creation**: Created tables for branches, employees, members, books, issued status, and return status.
 - **Foreign Keys**: Assigned foreign keys where relevant and needed.
-
 ```sql
 create database library_db;
 
@@ -103,7 +102,6 @@ add constraint fk_branch
 foreign key (branch_id)
 references branch(branch_id);
 ```
-
 ### 2. CRUD Operations
 
 - **Create**: Inserted sample records into the `books` table.
