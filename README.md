@@ -409,12 +409,12 @@ order by
 limit 3;
 ```
 
-**Task 18. Create a stored procedure that updates the status of a book in the library based on its issuance. The procedure should function as follows: 
-	- The stored procedure should take issued_id, issued_member_id, issued_book_isbn, issued_emp_id as an input parameters. 
-	- The procedure should first check if the book is available (status = 'yes'). 
-	- If the book is available, it should be issued, and the status in the books table should be updated to 'no'. 
-	- If the book is not available (status = 'no'), the procedure should return an error message 
-	  indicating that the book is currently not available. 
+**Task 18. Create a stored procedure that updates the status of a book in the library based on its issuance. The procedure should function as follows:**
+- The stored procedure should take issued_id, issued_member_id, issued_book_isbn, issued_emp_id as an input parameters. 
+- The procedure should first check if the book is available (status = 'yes'). 
+- If the book is available, it should be issued, and the status in the books table should be updated to 'no'. 
+- If the book is not available (status = 'no'), the procedure should return an error message 
+indicating that the book is currently not available.
 
 ```sql
 
